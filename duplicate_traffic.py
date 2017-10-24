@@ -7,6 +7,8 @@ from ryu.lib.packet import packet, ethernet
 
 import array
 
+# Duplicates all traffic to Host 3 @ Port 3
+
 class L2Switch(app_manager.RyuApp):
     OFP_VERSIONS = [ofproto_v1_0.OFP_VERSION]
 
